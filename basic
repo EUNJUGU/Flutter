@@ -26,3 +26,26 @@ CuteChild c1 = CuteChild();
 CuteBaby b1 = CuteBaby();
   b1.birth();
 }
+//-------------------------------------------------------------------------------------------------------//
+class Person{
+  String? name;
+  int? age;
+  String? favoriteFood;
+  double? height; 
+  
+  Person(this.name, this.age, this.favoriteFood, this.height);
+
+}
+
+
+
+void main() {
+  Person p1 = Person("Koo", 28, "Chicken", 159);
+  print(p1.name);
+  Person p2 = Person("Haeun", 6, "Melon", 120);
+  print(p2.age);
+  Person p3 = Person("Yul", 1, "Milk", 60);
+  print(p3.height);
+  Person p4 = Person("Goodboy", 24, "Pizza", 185);
+  print(p4.favoriteFood);
+}

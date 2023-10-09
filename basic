@@ -1,0 +1,28 @@
+class CuteChild{
+String name = "haeun";
+int age = 6;
+String favorite = "mymelody";
+int lala(){
+  5+4;
+  return 5+5;}  
+}
+
+class CuteBaby{
+String name = "yul";
+int age = 1;
+String favorite = "milk";
+  
+void birth(){
+  print(230519);
+}
+}
+
+
+
+void main() {
+CuteChild c1 = CuteChild();
+  print(c1.favorite);
+  print(c1.lala());
+CuteBaby b1 = CuteBaby();
+  b1.birth();
+}

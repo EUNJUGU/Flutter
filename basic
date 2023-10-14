@@ -49,3 +49,46 @@ void main() {
   Person p4 = Person("Goodboy", 24, "Pizza", 185);
   print(p4.favoriteFood);
 }
+//-----------------------------------------------------------------------------------------------------------//
+import 'package:flutter/material.dart';
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'First app',
+      theme: ThemeData(
+        primarySwatch: Colors.yellow
+      ),
+      home: const MyHomePage(),
+    );
+  }
+}
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Flutter basic'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            Text('Sayho'),
+            Text('Sayho'),
+            Text('Sayho')
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+
